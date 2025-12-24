@@ -1,9 +1,5 @@
 <div align="center">
-
-# ✨ MindOrbit ✨
-
-### Stay Focused. Stay Floating.
-
+  <img src="./src/assets/mindorbit_logo.png" alt="MindOrbit" width="300" />
 </div>
 
 ## Project Overview
