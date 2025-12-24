@@ -1,4 +1,19 @@
 {
+  "name": "MindOrbit",
+  "short_name": "MindOrbit",
+  "description": "A spatial productivity workspace for the future",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/mindorbit_logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
   "xr_main_scene": {
     "default_size": {
       "width": 800,
