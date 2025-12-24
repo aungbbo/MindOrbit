@@ -1,0 +1,233 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #3e3e3e;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  height: 100vh;
+  /* background-color: blue; */
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+html.is-spatial {
+  background-color: transparent;
+  --xr-background-material: transparent;
+  border-radius: 20px;
+
+  .todo-list-container {
+    background-color: transparent;
+    --xr-background-material: translucent;
+    /* border: 1px solid blue; */
+  }
+
+  .todo-list-box {
+    background-color: transparent;
+    --xr-background-material: translucent;
+  }
+
+  .todo-list-title {
+    color: white;
+  }
+
+  .todo-input {
+    color: white;
+    border: 2px solid black;
+  }
+
+  .todo-input::placeholder {
+    color: white;
+    opacity: 0.6;
+  }
+
+  .todo-add-btn {
+    color: white;
+  }
+
+  .todo-item {
+    color: white;
+    background-color: transparent;
+    --xr-background-material: thin;
+    border: 2px solid grey;
+  }
+
+  .todo-item-content {
+    color: white;
+  }
+
+  .todo-checkbox {
+    color: white;
+  }
+
+  .todo-text {
+    color: white;
+  }
+
+  .todo-delete-btn {
+    color: white;
+  }
+
+  .todo-empty-message {
+    color: white;
+  }
+
+  .todo-stats {
+    color: white;
+  }
+
+  .start-page-box {
+    background-color: transparent;
+    --xr-background-material: transparent;
+  }
+
+  .enter-button {
+    color: white;
+    background-color: rgb(10, 10, 79);
+  }
+
+  .notepad-container {
+    background-color: transparent;
+    --xr-background-material: transparent;
+  }
+
+  .notepad-title-bar {
+    background-color: transparent;
+    --xr-background-material: translucent;
+  }
+
+  .notepad-toolbar {
+    background-color: transparent;
+    --xr-background-material: thick;
+    /* border-bottom: 2px solid grey;
+    border-top: 2px solid grey; */
+  }
+
+  .notepad-paper {
+    background-color: transparent;
+    --xr-background-material: transparent;
+    border: 2px solid grey;
+  }
+
+  .notepad-status-bar {
+    background-color: transparent;
+    --xr-background-material: transparent;
+    color: white;
+  }
+
+  /* Notepad - White text in XR */
+  .notepad-title {
+    color: white;
+  }
+
+  /* .notepad-textarea {
+    color: red;
+  } */
+
+  .notepad-textarea::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .toolbar-label {
+    color: white;
+  }
+
+  .toolbar-select {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: grey;
+  }
+
+  /* Music Player - White text in XR */
+  .player-title {
+    color: white;
+  }
+
+  .tracks-list-title {
+    color: white;
+  }
+
+  .track-name {
+    color: white;
+  }
+
+  .control-btn {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+
+  .play-btn {
+    color: white;
+    background-color: rgba(100, 108, 255, 0.9);
+  }
+
+  .track-item {
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    --xr-background-material: thin;
+  }
+}
