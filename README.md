@@ -1,3 +1,11 @@
+<div align="center">
+
+# ✨ MindOrbit ✨
+
+### Stay Focused. Stay Floating.
+
+</div>
+
 ## Project Overview
 
 MindOrbit is a spatial productivity workspace that reimagines studying and organization in 3D. Built with React, TypeScript, and WebSpatial, it lets users arrange floating panels for notes, music, and planning in an interactive, XR-ready environment that feels natural and immersive.
@@ -18,7 +26,7 @@ _MindOrbit running on Apple Vision Pro Simulator_
 ### Subject Tabs
 
 - Each subject has its own floating note panel.
-- Customize text colors, font size and clear text.
+- Customize text colors, font size, clear text, and word count.
 
 ### Music Player
 
@@ -69,7 +77,7 @@ _MindOrbit running on Apple Vision Pro Simulator_
 
 4. **Open in browser**
 
-   Navigate to `http://localhost:3000`
+   Navigate to `http://localhost:5173`
 
 5. **Generate AVP-specific code**
 
