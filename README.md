@@ -2,6 +2,10 @@
   <img src="./src/assets/mindorbit_logo.png" alt="MindOrbit" width="300" />
 </div>
 
+## Detailed Documentation
+https://smiling-cap-7e6.notion.site/MindOrbit-Turning-Productivity-into-a-Spatial-Experience-2e1df2206e458071a8aee26bd5781c8d
+
+
 ## Project Overview
 
 MindOrbit is a spatial productivity workspace that reimagines studying and organization in 3D. Built with React, TypeScript, and WebSpatial, it lets users arrange floating panels for notes, music, and planning in an interactive, XR-ready environment that feels natural and immersive.
