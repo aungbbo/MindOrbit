@@ -46,7 +46,9 @@ function Notes() {
                   },
                 };
               });
-              window.open(`${__XR_ENV_BASE__}todos`, "todoListScene");
+              const baseUrl = typeof __XR_ENV_BASE__ !== 'undefined' ? __XR_ENV_BASE__ : '';
+              const url = baseUrl ? `${baseUrl}/todos` : '/todos';
+              window.open(url, "todoListScene");
             }}
           >
             Todo List
@@ -63,7 +65,9 @@ function Notes() {
                   },
                 };
               });
-              window.open(`${__XR_ENV_BASE__}music`, "musicPlayerScene");
+              const baseUrl = typeof __XR_ENV_BASE__ !== 'undefined' ? __XR_ENV_BASE__ : '';
+              const url = baseUrl ? `${baseUrl}/music` : '/music';
+              window.open(url, "musicPlayerScene");
             }}
           >
             Music

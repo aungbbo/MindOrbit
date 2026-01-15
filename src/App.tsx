@@ -8,8 +8,9 @@ import TodoList from "./todoList";
 import Notepad from "./components/notepad";
 
 function App() {
+  const basename = typeof __XR_ENV_BASE__ !== 'undefined' ? __XR_ENV_BASE__ : '';
   return (
-    <Router basename={__XR_ENV_BASE__}>
+    <Router basename={basename}>
       <Routes>
         <Route path="/" element={<StartPage />} />
         <Route path="/webspatial/avp" element={<StartPage />} />
